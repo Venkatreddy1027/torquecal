@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>torquee calculator</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+	<div class="main-box" id="scrollTo"><br>
+		<h1 class="main-head">TORQUE CALCULATOR</h1>
+		<table class="pure-table pure-table-bordered">
+			<tr>
+				<td id="result-content">Result</td>
+				<td id="result">x</td>
+			</tr>
+		</table>
+		<table width="101%" >
+			<tr>
+				<td>
+					<h3>To Calculate</h3>
+				</td>
+				<td colspan="2">
+					<select name="toCalculate" id="perof5" onchange="disable(this.value)">
+						<option value="distance">Distance  </option>
+						<option value="force" selected="yes">Force  </option>
+						<option value="angle"> Angle  </option>
+						<option value="torque">Torque  </option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Distance</h3>
+				</td>
+				<td><input type="number" id="distance">
+					<span><b>m</b></span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3> Force</h3>
+				</td>
+				<td><input type="number" id="force" disabled="true" style="background: grey"> <span><b>N<b></span></td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Angle</h3>
+				</td>
+				<td><input type="number" id="angle"> <span> <b>deg</b></span></td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Torque</h3>
+				</td>
+				<td><input type="number" id="torque"> <span><b>Nm</b></span></td>
+			</tr>
+		</table> <br>
+		<div class="buttons">
+			<button class="pure-button" onclick="calculate()">Calculate</button>
+			<button class="button-error pure-button" onclick="clearTorque()">Clear</button></br>
+		</div>
+	</div>
+	<script type="text/javascript" src="torque.js"></script>
+</body>
+
+</html>

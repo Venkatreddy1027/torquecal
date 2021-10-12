@@ -1,0 +1,141 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.5em;
+    background-color: #e9ebee;
+
+
+}
+.main-head{
+    font-family: Arial , sans-serif;
+    font-weight: 600;
+}
+
+.main-box .pure-button {
+    font-family: Arial , sans-serif; 
+    font-size: 20px !important;
+    padding: 0.5em 1em !important;
+    height: 45px !important;
+    color: #fff !important;
+    border: 1px solid #999 !important;
+    border: transparent !important;
+    background-color: #4267b2 !important;
+    text-decoration: none !important;
+    border-radius: 2px !important;
+    cursor: pointer;
+}
+
+.main-box {
+    border: 3px solid #036 !important;
+    box-shadow: 1px 1px 2px #666 !important;
+    text-align: -webkit-center !important;
+    display: inline-block !important;
+    padding: 0 21px !important;
+    background: #fff !important;
+    text-align: -moz-center !important;
+    margin-top: 0 !important;
+    border-radius: 6px;
+}
+
+.main-box .pure-table {
+    border: 1px solid #cbcbcb !important;
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+}
+.h4{
+    font-size: 40px;
+}
+.main-box .pure-table td {
+    border-left: 1px solid #cbcbcb !important;
+    border-width: 0 0 0 1px !important;
+    font-size: 19px !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    padding: 0.5em 1em !important;
+    border-bottom: 1px solid #cbcbcb !important;
+}
+
+.main-box .pure-table td:first-child,
+.pure-table th:first-child {
+    border-left-width: 0 !important;
+}
+
+.main-box input {
+    font-family: Arial, sans-serif;;
+    width: 100px !important;
+    box-shadow: 1px 1px 2px #666 !important;
+    font-size: 24px !important;
+    line-height: 40px !important;
+    background-color: #fff !important;
+    border: 1px solid grey !important;
+    padding-left: 10px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: auto !important;
+    cursor: pointer !important;
+    margin-right: 17px;
+}
+
+.main-box select {
+    font-size: 24px !important;
+    border-radius: 5px !important;
+    line-height: 40px !important;
+    background-color: #fff !important;
+    border: 1px solid grey !important;
+    box-shadow: 1px 1px 2px #666 !important;
+    min-height: auto !important;
+    height: auto !important;
+}
+
+.main-box .button-error {
+    background: #ca3c3c !important;
+}
+
+@font-face {
+    font-family: Arial , sans-serif;
+    src: url(https://www.calculatorhut.com/css/CircularStd-Book.woff) format("woff");
+    font-display: swap;
+}
+
+.main-box {
+    font-family: Arial , sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.main-box h2 {
+    margin-top: 0 !important;
+    text-transform: uppercase !important;
+}
+
+.main-box .input-table {
+    font-size: 19px !important;
+}
+
+.main-box input[disabled] {
+    background: grey !important;
+}
+
+.main-box select[disabled] {
+    background: grey !important;
+}
+
+#feet {
+    background: url(https://www.calculatorhut.com/img/feet.svg) 0 no-repeat;
+}
+
+#inch {
+    background: url(https://www.calculatorhut.com/img/inches.svg) 0 no-repeat;
+}
+
+.main-box input[type="radio"] {
+    width: auto !important;
+    box-shadow: none !important;
+}
+
+.main-box table td {
+    padding-bottom: 2% !important;
+}
+.buttons{
+    margin-bottom: 25px;
+}
